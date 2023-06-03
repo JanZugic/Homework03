@@ -8,7 +8,7 @@ const int MAX_ROWS = 20;
 const int MAX_COLS = 40;
 
 void drawGrid(int startRow, int startCol, int endRow, int endCol) {
-    system("cls");  // Clear the console
+    system("cls"); 
 
     for (int row = 1; row <= MAX_ROWS; ++row) {
         for (int col = 1; col <= MAX_COLS; ++col) {
